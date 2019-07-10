@@ -1,0 +1,29 @@
+name: LobbyPlus
+main: LobbyPlus\Main
+version: 1.0.0
+api: 3.0.0
+load: POSTWORLD
+author: Chhiwe
+authors: [Wertzui123, ChampOfGamesYT, HimmelKreis4865]
+description: A lobby system
+website: https://github.com/Chhiwe/LobbyPlus
+commands:
+ help:
+  description: "Shows the help message"
+  usage: "help"
+permissions:
+ lobbyplus:
+  children:
+   lobbyplus.transact:
+    description: Let you transact items
+    default: false
+   lobbyplus.build:
+    default: op
+    description: Let you place blocks
+   lobbyplus.break:
+    default: op
+    description: Let you break blocks
+   lobbyplus.chat:
+    default: op
+    description: Let you chat
+

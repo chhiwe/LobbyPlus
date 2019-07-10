@@ -1,0 +1,46 @@
+---
+#Select a join message, which is broadcasted on join.
+JoinMessage: "§a%player% §7joined"
+
+#And a private message which is sent to joined player:
+PrivateMessage: "§bWelcome to the server %player%\n\n§cHave fun here!"
+
+#So and now for leave the same:
+LeaveMessage: "§c%player% §7leaved"
+
+#Now you can choose a message on the events. The message is sent, if that message has been disabled the ccorrespondance part in settings.yml
+Drop_Items: "§cYou can't drop in lobby!"
+Consume_items: "§cYou can't consume in lobby!"
+Craft_items: "§cYou can't craft in lobby!"
+death: "§cYou can't die in lobby!"
+chat: "§cYou need a permission to chat in Lobby!"
+
+#Other messages
+cant_use_perks: "§cYou cannot use perks!"
+players_visible: "§aPlayers are now visible"
+players_invisible: "§aPlayers are now invisible"
+fly_on: "§aFlight on!"
+fly_off: "§cFlight off!"
+speed_on: "§aSpeed on!"
+speed_off: "§cSpeed off!"
+
+#The help-command message
+HelpMessage: "§4For help, please visit our discord: https://discord.gg/YOURLINK"
+
+#-------- UI --------
+
+#First, the info title. You can see it when you interact with the info item
+InfoTitle: "§l§aInfo"
+InfoContent: "§6Plugin was written by:\n§cChampOfGamesYT\n§cHimmelKreis4865\n§cWertzui123"
+InfoButton: "§7> §l§4Close"
+#Title is the title (I think you know)
+#Content is the text under the title
+#And the button is - as an example - to close the UI
+
+#Now the same for the navigator:
+NavigatorTitle: "§l§4Navigator"
+NavigatorContent: "§4Where do you want to travel?"
+#Now the same for Perks
+PerksTitle: "§l§aPerks §r§7- §cchoose one"
+PerksContent: "Choose a perk to aktivate temporalie"
+...
