@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/chhiwe/LobbyPlus
+branches:
+- master
+projects:
+  LobbyPlus:
+    path: ""
+...
