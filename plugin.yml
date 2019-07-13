@@ -6,6 +6,7 @@ load: POSTWORLD
 author: Chhiwe
 authors: [Wertzui123, ChampOfGamesYT, HimmelKreis4865]
 description: A lobby system
+depends: FormAPI
 website: https://github.com/Chhiwe/LobbyPlus
 commands:
  help:
