@@ -48,7 +48,7 @@ info: "§r§fInfo"
 custom_command: "/help{asplayer}"
 
 # All servers for the navigator
-# Example: [["Server1", 123.456.789.123_19132], ["Server2", "google.de_34762"]]
+# Example: [["Server1", 123.456.789.123, 19132], ["Server2", "google.de, 34762"]]
 servers:
  - ["WertzuiGames", "wertzuigames.de", 19132]
  - ["WertzuiGames", "wertzuigames.de", 19132]
