@@ -195,25 +195,7 @@ class main extends PluginBase implements Listener{
         }
     }
 
-    public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args):bool{
-        switch ($cmd->getName()){
-            case "ver":
-                break;
-            case "msg":
-                break;
-            case "say":
-                break;
-            case "help":
-                $sender->sendMessage($this->Config("messages.yml")->get("HelpMessage"));
-                break;
-            case "tell":
-                break;
-            case "me":
-                break;
-        }
-        return true;
-    }
-
+    
     public function Config($file){
         $file = new Config($this->getDataFolder().$file, 2);
         return $file;
