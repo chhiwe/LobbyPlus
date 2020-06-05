@@ -51,7 +51,7 @@ custom_command: "/help{asplayer}"
 # -- Example - Fomat -- 
 # servers: 
 #  - ["Server1", 123.456.789.123, 19132]
-#  - ["Server2", "google.de, 34762"]]
+#  - ["Server2", "google.de, 34762"]
 
 servers:
  - ["WertzuiGames", "wertzuigames.de", 19132]
